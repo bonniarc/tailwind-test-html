@@ -1,41 +1,49 @@
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="./style.css" rel="stylesheet">
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style>
 </head>
 <body>
+    <div class="lg:content-auto">
     <div>
-        <div>
-            <nav>
-                <div>
+    <div>
+        <nav>
+            <div>
                 
-                    <header>
+                <header>
                    
-                        <div class="header-logo">ロゴ</div>
-                        <div class="header list">
-                            <ul>
-                                <li class="text-sky-700">選ばれる理由</li>
-                                <li>マッチングの流れ</li>
-                                <li>よくあるご質問</li>
-                            </ul>
+                    <div class="header-logo">ロゴ</div>
+                    <div class="header list">
+                    <ul class="text-sky-700 text-sm">
+                        <li>選ばれる理由</li>
+                        <li>マッチングの流れ</li>
+                        <li>よくあるご質問</li>
+                    </ul>
                             
                         
-                        </div>
-                       <div class="btn headb">
+                    </div>
+                    <div class="btn headb">
                         <a href="#" class="btn here">企業の方はこちら</a>
                         <a href="#" class="btn inquiry">お問い合わせ</a>
                        </div>
-                    </header>
+                </header>
                 <div class="top wrapper">
-                
-                    <div class="bg-fixed ..." style="background-image: url(/Users/kali/Desktop/thelady.PNG)"></div>
+            
 
                     <div class= "container">
                     
                        
-                        <h1>新しい自分に 出会おう。</h1>
+                    <h1>新しい自分に 出会おう。</h1>
                     </div>
                     <div class="btn wrapper">
                         <a href="#" class="btn download">資料をダウンロードする</a>
@@ -47,32 +55,33 @@
 
                     </div>
 
-                    <div class="main">
+                <div class="main">
                      <h1>○○が選ばれる3つの理由</h1>
                      <a href="#" class="btn register">無料登録する</a>
 
-                    </div>
+                </div>
 
-                    <footer>
-                        <div class="footer logo">ロゴ</div>
-                        <div class="footer-list1">
-                            <ul>
-                                <li>CMO株式会社</li>
-                                <li>151-0051 東京都渋谷区千駄ケ谷5-27-5 リンクスクエア新宿 16F</li>
-                            </ul>
-                        </div>
-                        <div class="footer-list2">
-                            <ul>
-                                <li>トップ</li>
-                                <li>プライバシーポリシー</li>
-                                <li>お問い合わせ</li>
-                            </ul>
-                        </div>
-                    </footer>
+                <footer>
+                     <div class="footer logo">ロゴ</div>
+                     <div class="footer-list1">
+                         <ul>
+                            <li>CMO株式会社</li>
+                            <li>151-0051 東京都渋谷区千駄ケ谷5-27-5 リンクスクエア新宿 16F</li>
+                        </ul>
+                    </div>
+                    <div class="footer-list2">
+                        <ul>
+                            <li>トップ</li>
+                            <li>プライバシーポリシー</li>
+                            <li>お問い合わせ</li>
+                        </ul>
+                    </div>
+                </footer>
                    
                 </div>
             </nav>
         </div>
     </div>
+</div>
 </body>
 </html>
