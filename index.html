@@ -7,68 +7,101 @@
   <link href="./style.css" rel="stylesheet">
   <style type="text/tailwindcss">
     @layer utilities {
-      .content-auto {
-        content-visibility: auto;
-      }
+      
     }
   </style>
 </head>
 <body>
-    <div class="lg:content-auto">
+    
     <div>
     <div>
         <nav>
             <div>
                 
                 <header class="bg-sky-500">
-                    <div class="ps-5 py-5 header-logo">ロゴ</div>
-                    <div class="header list">
-                    <ul class="grid grid-flow-col auto-cols-max text-slate-300 text-sm py-5 px-5 absolute top-0 right-5">
+                <header-list class="mt-5">
+                    <div class="ps-5 ml-2 absolute top-5">ロゴ</div>
+                    <ul class="grid grid-flow-col auto-cols-max text-slate-200 text-sm absolute top-5 text-center mx-20">
                         <li class="px-5">選ばれる理由</li>
                         <li class="px-5">マッチングの流れ</li>
                         <li class="px-5">よくあるご質問</li>
                     </ul>
-                            
-                        
-                    </div>
-                    <div class="container mx-auto">
-                    <div class="ps-5 py-2 w-20 bg-slate-200 box-border btn headb">
-                        <a href="#" class="btn here">企業の方はこちら</a>
-                       
-                       </div>
-                    </div>
-                    <div class="container mx-auto">
-                       <div class="ps-5 py-2 w-20 bg-slate-200 box-border btn headb">
-                       
-                        <a href="#" class="btn inquiry">お問い合わせ</a>
-                       </div>
-                       </div>
-                       
-                </header>
-                <div class="top wrapper bg-sky-500">
-                   
-                    <div class= "container">
-                       
+
                     
-                    <h1>新しい自分に 出会おう。</h1>
-                    <img src="/Users/kali/Desktop/thelady.PNG">
-                </div>
-                </div>
-                    <div class="btn wrapper">
-                        <a href="#" class="btn download">資料をダウンロードする</a>
-                        <a href="#" class="btn register">無料登録する</a>
+                        <div class="flex justify-center text-sky-600 text-sm space-x-4">
+                            <button href="#" class="p-2 mt-3 rounded  w-40 h-10 bg-slate-100 border-sky-600 border round static top-4">企業の方はこちら</button>
+                            <button href="#" class="p-2 mt-3 rounded w-40 h-10 bg-slate-100 border-sky-600 border round static top-4">お問い合わせ</button>
+                        
+                        </div>
+                    
+                  <div class="bg-sky-500 h-20"></div>      
+                            
+                </header-list class="bg-sky-500"> 
+                
+
+                       <h1 class="m-5 px-10 pt-20 text-4xl text-slate-100">新しい<span class="text-5xl">自分</span>に</h1>
+                       <h1 class="mx-5 px-10 pb-20 text-4xl text-slate-100">出会おう。</h1>
+                       
+                       <img class="pt-20" src="">
+                     
+                     <div= class="flex justify-center text-sm space-x-4">
+                        <button href="#" class="p-3 bg-slate-100 text-sky-600 border-sky-600 border">資料をダウンロードする</button>
+                       <button href="#" class="p-3 w-40 bg-orange-700 text-slate-100">無料登録する</button>
+                     </div>
+                     
+                     <div class="bg-sky-500 h-10"></div>
+                
+                  
+
                     </div>
-
-
-                </div>
-
-                    </div>
+                   </div>
+                    
+   
+                
+   
+                       </div>
+                       
+                    </header>
+                             
 
                 <div class="main">
-                     <h1>○○が選ばれる3つの理由</h1>
-                     <a href="#" class="btn register">無料登録する</a>
+                     <h1 class="text-center text-2xl p-10">○○が選ばれる3つの理由</h1>
+
+                     <div class='flex flex-col items-center'>
+                     <button href="#" class="items-center p-2 m-5 w-40 rounded-full bg-zinc-300 text-zinc-700 object-center">無料登録する</button>
+                    </div>
+
+                     <h1 class="text-center m-10 text-2xl">スカウトまでの流れ</h1>
+
+                     <div class="grid grid-cols-4 ml-20 pl-8">    
+            
+                        <div class="">STEP1</div> 
+                        <div class="">STEP2</div> 
+                        <div>STEP3</div>
+                        <div>STEP4</div>
+                        
+                     </div>     
+               
+                 <div class="grid grid-cols-4 ml-20 mt-5">    
+            
+                    <div class="items-center box-content h-20 w-20 p-4 border-2 border-zinc-800 rounded-full"></div> 
+                    <div class="items-center box-content h-20 w-20 p-4 border-2 border-zinc-800 rounded-full"></div> 
+                    <div class="items-center box-content h-20 w-20 p-4 border-2 border-zinc-800 rounded-full"></div> 
+                    <div class="fitems-center box-content h-20 w-20 p-4 border-2 border-zinc-800 rounded-full"></div> 
+                    
+                 </div>
+
+                 <div class="grid grid-cols-4 mt-5 ml-20 pl-8">    
+            
+                    <div class="">10秒で会員登録</div> 
+                    <div class="">メールをチェック</div> 
+                    <div>スカウト開始</div>
+                    <div>内定/入社</div>
+                    
+                 </div>  
 
                 </div>
+
 
                 <footer>
                      <div class="footer logo">ロゴ</div>
